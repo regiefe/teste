@@ -19,10 +19,10 @@
 >
 >    Exemplos:
 
-   | email     | senha     | mensagem |
-   | ------------ | ------------ | ------------ |
-   | teste@teste.com  | errado    | Usuario ou senha invalido!|
-   | fulano@teste.com | 123"      | Usuario ou senha invalido!|
+   | email            | senha    | mensagem                  |
+   | ------------     | ---------| ------------------------- |
+   | teste@teste.com  | errado   | Usuario ou senha invalido!|
+   | fulano@teste.com | 123"     | Usuario ou senha invalido!|
 
 
 ![](img/BDD_login.png)
