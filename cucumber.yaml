@@ -1,5 +1,5 @@
 ---
-default: -p html -p dot
+default: -p html -p bdd
 html: --format html --out=log/feature.html
 dot: --format progress
 bdd: --format pretty
