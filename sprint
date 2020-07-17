@@ -1,0 +1,23 @@
+Cenario: Usuario deve ser autenticado.
+
+Dado que eu acesso a pagina principal
+Quando eu fizer login com "teste@teste.com" e a senha "123"
+Então devo ser logado  com sucesso.
+Então deve pararecer a mensagem: Você esta logado como teste@teste.com
+
+
+Cenario: Senha errada
+Dado que eu acesso a pagina principal
+Quando eu fizer login com "teste@teste.com" e a senha "errado"
+Então deve pararecer a mensagem: Usuario ou senha invalido!
+
+
+Cenario: Usuario não existe
+Dado que eu acesso a pagina principal
+Quando eu fizer login com "fulano@teste.com" e a senha "123"
+Então deve pararecer a mensagem: Usuario ou senha invalido!
+
+Cenario: Email Invalido 
+Dado que eu acesso a pagina principal
+Quando eu fizer login com "testeteste.com" e a senha "123"
+Então deve pararecer a mensagem: Usuario ou senha invalido!
